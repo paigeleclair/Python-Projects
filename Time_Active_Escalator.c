@@ -8,10 +8,6 @@
 // same time period twice.                                                     // 
 //                                                                             //
 /////////////////////////////////////////////////////////////////////////////////
-
-
-
-
 #include <stdio.h>
 
 int active_seconds(int arrival[], int n){
