@@ -1,6 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////
 // Paige Leclair                                                               //
-// U81741571                                                                   //
 // Description: A program that calculates the total number of seconds          //
 // an escalator was active. Takes input of the number of people and their      //
 // arrival times. If a person arrives while the escalator is still active     //
