@@ -1,13 +1,10 @@
 /***********************************************************************************
 Paige Leclair
-U81741571
 Description: A program that reads from a file and uses structures to create a list of 
 animals of the same gender and species while printing their name, age, and weight
 ************************************************************************************/
 #include <stdio.h>
 #include <string.h>
-
-
 struct animal{ //this is the structure for each instance
   char name[100];
   char species[100];
