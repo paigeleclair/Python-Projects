@@ -1,6 +1,5 @@
 /////////////////////////////////////////////////////////////////////////////////
 // Paige Leclair                                                               //
-// U81741571                                                                   //
 // Description: A program that prompts the user with a tool selection 1-4 and  //
 // calculates their charge based on the hours, days, and possible weeks user   //
 // rents tool for.                                                             //
