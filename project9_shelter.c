@@ -1,6 +1,5 @@
 /***********************************************************************************
 Paige Leclair
-U81741571
 Description: A program that reads from a file and uses quick sort to sort 
 the name, age, and weight of animals in the list
 ************************************************************************************/
