@@ -8,7 +8,6 @@
 #include <stdio.h>
 //declaring exclusive function
 void exclusive_or(int *a, int n1, int *b, int n2, int *c, int *size);
-
 //main funciton that takes in input and iterates through the input values
 int main(void) {
   int i, n1, n2;
