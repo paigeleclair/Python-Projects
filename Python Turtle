@@ -1,0 +1,37 @@
+#Paige Leclair
+import turtle
+my_turtle = turtle.Turtle()
+number_sides = turtle.numinput('Side Entry', 'Enter the number of sides:', default = 3, minval = 3, maxval = 12)
+side_length = turtle.numinput('Length entry', 'Enter the length of each side:', default = 50, minval = 50, maxval = 250)
+number_sides = int(number_sides)
+
+angle = (180 * (number_sides - 2)) / number_sides
+turtle_angle = 180 - angle
+
+turtle.speed(10)
+
+for i in range(number_sides):
+    turtle.forward(side_length)
+    turtle.right(turtle_angle)
+if number_sides == 3:
+    turtle.write('Triagle')
+elif number_sides == 4:
+    turtle.write('Tetragon')
+elif number_sides == 5:
+    turtle.write('Pentagon')
+elif number_sides == 6:
+    turtle.write('Hexagon')
+elif number_sides == 7:
+    turtle.write('Heptagon')
+elif number_sides == 8:
+    turtle.write('Octagon')
+elif number_sides == 9:
+    turtle.write('Nonagon ')
+elif number_sides == 10:
+    turtle.write('Decagon')   
+elif number_sides == 11:
+    turtle.write('Hendecagon')
+elif number_sides == 12:
+    turtle.write('Dodecagon')
+
+
