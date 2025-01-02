@@ -3,10 +3,7 @@
 // Description: A C program that determines if a number                    //
 // entered by the user is special (contains a 3 and is a multiple of 3)    //
 /////////////////////////////////////////////////////////////////////////////
-
-
 #include <stdio.h>
-
 int main() {
   int num;
   printf("Enter input: ");
