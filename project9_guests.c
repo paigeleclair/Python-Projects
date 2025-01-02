@@ -1,6 +1,5 @@
 /***********************************************************************************
 Paige Leclair
-U81741571
 Description: A program that  manages and tracks the guest list for a
 local restaurant. Each group of guests is stored with phone number,
 last name and first name, and party size.
