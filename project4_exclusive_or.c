@@ -1,20 +1,17 @@
 /////////////////////////////////////////////////////////////////////////////////
 // Paige Leclair                                                               //
-// U81741571                                                                   //
 // Description: A program that determines if two arays, a and b, have          //
 // different values (otherwise exclusive) and if they do they are added to     //
 //  array c. This program uses pointer arithmetic to visit array elements.     //                               //                                                                             //
 /////////////////////////////////////////////////////////////////////////////////
 
 #include <stdio.h>
-
 //declaring exclusive function
 void exclusive_or(int *a, int n1, int *b, int n2, int *c, int *size);
 
 //main funciton that takes in input and iterates through the input values
 int main(void) {
   int i, n1, n2;
-
 //////////////////////////   Array a   //////////////////////////////////////////
   printf("Enter length of array #1:");
   scanf("%d", &n1);
@@ -23,7 +20,6 @@ int main(void) {
   for (i = 0; i < n1; i++) {               //iterating over elements in array a and taking them in
     scanf("%d", &a[i]);
   }
-  
 /////////////////////////////    Array b  //////////////////////////////////////////
   printf("Enter length of array #2:");
   scanf("%d", &n2);
@@ -32,7 +28,6 @@ int main(void) {
   for (i = 0; i < n2; i++) {
     scanf("%d", &b[i]);                  //iterating over elements in array b and taking them in
   }
-
 //////////////////////////////////  Array c  ////////////////////////////////////////////////
   int c[n1+n2];                           //since n2 and n1 are now have lengths, array C has a..
                                           // potential length of both a and b combine
@@ -45,8 +40,6 @@ int main(void) {
   }
   return 0; 
 }
-
-
 //Exclusive Function that iterates through our two arrays and determines...
 //that if a value in a = value in b then it is exclusive and is put into array c.
 
