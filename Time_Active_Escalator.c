@@ -8,7 +8,6 @@
 //                                                                             //
 /////////////////////////////////////////////////////////////////////////////////
 #include <stdio.h>
-
 int active_seconds(int arrival[], int n){
   int total_active = 0; 
   int end_time = 0;
