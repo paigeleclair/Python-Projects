@@ -1,16 +1,11 @@
 /////////////////////////////////////////////////////////////////////////////////
 // Paige Leclair                                                               //
-//U81741571                                                                    //
 // Description: Program that takes in input and compresses strings that        //
 // contain more than two of the same character                                 //
 //                                                                             //
 /////////////////////////////////////////////////////////////////////////////////
-
-
 #include <stdio.h>
-
 void compress(char *input, char *output);
-
 int main() {
   char input[1001], output[1001]; //since array is in form char, need to account for null
   printf("Enter message:");
@@ -19,7 +14,6 @@ int main() {
   printf("Output: %s\n", output);
   return 0;
 }
-
 void compress(char *input, char *output) { //sending in val of input and sending out vals of Output
   int count = 1;        //since we start out with an initial letter, repetition or not, set count to 1
   char *p = input, *q = output; //p points to input and q to output
