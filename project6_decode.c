@@ -1,16 +1,12 @@
 ////////////////////////////////////////////////////////////
 //Paige Leclair                                           //
-//U81741571                                               //
 // Description: A program that reads from an input file   //
 // and stores the first letter of each word and then      //
 //sends to output form an encrypted text.                 //
 ////////////////////////////////////////////////////////////
 
-
 #include <stdio.h>
-
 void decode(char words[][101], int num_words, char *result);
-
 int main() {
   char words[1000][101]; //no more than 1000 words, where each word is no more than 100 characters
   int num_words = 0;
